@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+:root{
+  --primary-color: #047aed;
+
+  /* Menu Colours */
+  --header-title-color: #fff;
+  --menu-text-color: #fff;
+
+  --menu-text-hover-color: #0268ce;
+  --menu-border-top: #fff;
+
+  --login-button-color: #001a33;
+  --login-button-text: #fff;
+  
+}

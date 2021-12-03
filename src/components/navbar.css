@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color: #047aed;
+    --background-color: #fff;
+    --active_menu: #036bd3;
+}
+
+.navbar-container{
+    padding: 0 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.header-title{
+    color: white;
+    text-transform: uppercase;
+}
+.header-menu{
+    
+}
+.header-menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.header-menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+.header-menu li a:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 1px white solid;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+a.active_class{
+    font-weight: bold;
+    border-bottom: 1px white solid;
+    background-color: var(--active_menu);
+    
+}
+
+.settings .login a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 5px;
+}
+
+.settings .login a:hover{
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
